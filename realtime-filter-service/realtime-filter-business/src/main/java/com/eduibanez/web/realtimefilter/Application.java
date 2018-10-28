@@ -1,4 +1,4 @@
-package com.eduibanez.web.realtimefilter.main;
+package com.eduibanez.web.realtimefilter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

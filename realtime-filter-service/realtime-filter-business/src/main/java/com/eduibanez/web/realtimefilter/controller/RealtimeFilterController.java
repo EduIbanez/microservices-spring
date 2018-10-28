@@ -18,13 +18,13 @@ import io.swagger.annotations.ApiResponses;
 
 @Api
 @RestController
-@RequestMapping("realtime-filter/")
+@RequestMapping("/realtime-filter")
 public class RealtimeFilterController {
 
 	/** The logger. */
     private static final Logger logger = LoggerFactory.getLogger(RealtimeFilterController.class);
 
-    @RequestMapping(method = RequestMethod.GET, value = "statuses/")
+    @RequestMapping(method = RequestMethod.GET, value = "/statuses")
     @ApiOperation(value = "statuses", nickname = "statuses", response = FilterResponse.class)
     @ApiResponses(value = { @ApiResponse(code = 200, message = "Success", response = String.class),
             @ApiResponse(code = 201, message = "Created"), @ApiResponse(code = 400, message = "Bad Request"),

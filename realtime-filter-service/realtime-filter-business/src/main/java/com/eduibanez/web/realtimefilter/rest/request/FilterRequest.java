@@ -2,6 +2,9 @@ package com.eduibanez.web.realtimefilter.rest.request;
 
 import java.io.Serializable;
 
+import io.swagger.annotations.ApiModel;
+
+@ApiModel
 public class FilterRequest implements Serializable {
 
 	/**
